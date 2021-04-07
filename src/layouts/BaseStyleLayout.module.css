@@ -1,0 +1,27 @@
+
+.mainWrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF0F5;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    position: relative;
+    margin: 20px;
+}
+
+header,footer{
+    padding: 10px 20px;
+}
+
+header{
+    background-color: red;
+}
+
+footer{
+    background-color: silver;
+}
